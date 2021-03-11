@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F0F0F5;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column
+}
+
+header {
+    width: 100%;
+    background-color: #8EA5EB;
+    height: 3rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: row
+}
+
+.column {
+    flex: 1;
+}
