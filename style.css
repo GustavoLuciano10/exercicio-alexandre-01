@@ -84,7 +84,7 @@ div .social {
 
 .social li {
     width: 40px;
-    height: 40px;
+    height: 4vh;
     border-radius: 5px;
     background-color: #212025;;
     justify-content: center;
