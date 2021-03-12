@@ -1,25 +1,131 @@
+* {
+    color: #e1e1e6;
+    font-family: roboto;
+}
+
 body {
     padding: 0;
     margin: 0;
-    background-color: #F0F0F5;
+    background-color: #121214;
 }
 
-.corpo {
+main {
+    height: 100vh;
     display: flex;
     flex-direction: column
 }
 
 header {
     width: 100%;
-    background-color: #8EA5EB;
-    height: 3rem;
+    background-color: #8257e661;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    padding: 0 5rem;
+}
+
+header div span {
+    font-size: 1.2rem;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+footer {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    background-color: #e1e1e630;
+    border: none;
+    height: 1px;
 }
 
 .flex-column {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    padding: 4rem 5rem 0px 5rem;
+    height: 50vh;
 }
 
 .column {
     flex: 1;
+    background-color: #212025;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.column:not(:last-child){
+    margin-right: 2rem;
+}
+
+.footer {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    background-color: #0d0d0f;
+    padding: 3rem 5rem;
+}
+
+div .social {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.social li {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #212025;;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.social li a svg {
+    border-radius: 6px;
+}
+
+.social li a svg path {
+    color: #8257e6;
+}
+
+.social li:not(:last-child){
+    margin-right: 10px;
+}
+
+section img {
+    width: 100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #212025;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #35353c;
+}
+
+.lista {
+    justify-content: space-around;
+    height: 100%;
+    display: flex;
 }
