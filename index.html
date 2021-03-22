@@ -16,7 +16,7 @@
         <!--Cabeçalho da página -->
         <header>
             <div>
-                <span>Atividade 1</span>
+                <span>Atividade 2</span>
             </div>
             <div>
                 <ul class="social">
@@ -69,7 +69,8 @@
             <section class="column">
                 <h1>Primeira Coluna (Imagem)</h1>
                 <hr />
-                <img src="https://theme.zdassets.com/theme_assets/10261560/722eeaa564ad975dbdb53e5f9956aab53d1c8fb6.png">
+                <img
+                    src="https://theme.zdassets.com/theme_assets/10261560/722eeaa564ad975dbdb53e5f9956aab53d1c8fb6.png">
             </section>
 
             <section class="column">
@@ -108,23 +109,63 @@
                         <li>Estados Unidos</li>
                         <li>Alemanha</li>
                         <li>Inglaterra</li>
-                    </ol> 
+                    </ol>
 
                     <ul>
                         <li>Brasil</li>
                         <li>Estados Unidos</li>
                         <li>Alemanha</li>
                         <li>Inglaterra</li>
-                    </ul> 
+                    </ul>
 
                 </div>
             </section>
         </article>
 
+        <!--Formulário da página-->
+        <div class="form">
+            <div class="formulario">
+                <div class="column">
+                    <h1>Cadastrar Pessoa</h1>
+                    <hr />
+                    <div class="col">
+                        <div class="group">
+                            <span>Nome:</span>
+                            <input type="text" id="nome" name="nome" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="group">
+                            <span>Telefone:</span>
+                            <input type="text" id="telefone" name="telefone" class="form-control">
+                        </div>
+                        <div class="group">
+                            <span>País:</span>
+                            <input type="text" id="pais" name="pais" class="form-control">
+                        </div>
+                    </div>
+
+                    <button onclick="Cadastrar()">Cadastrar</button>
+                </div>
+            </div>
+
+            <div class="column">
+                <h1>Pessoas</h1>
+                <hr />
+                <table id="table">
+                    <tr>
+                        <th>Pessoa</th>
+                        <th>Contato</th>
+                        <th>País</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
         <!--Rodapé da página-->
         <footer>
             <div class="footer">
-                <p>Contato:<br>gustavo.luciano@aluno.unincor.edu.br</p>
+                <p>Contato: Gustavo.Luciano@aluno.unincor.edu.br</p>
                 <p>&copy;Copyright Gustavo Henrique Luciano - 7º Período CPU</p>
             </div>
         </footer>
@@ -132,4 +173,6 @@
     </main>
 </body>
 
+<!-- JS -->
+<script src="action.js"></script>
 </html>
